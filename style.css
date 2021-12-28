@@ -1,0 +1,174 @@
+.rectangle{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-height: 0.1em;
+    background-image: url(back_for_head.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 0.1em;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    
+}
+.logo{
+    margin: 0.1em;
+}
+.linked{
+    text-align: right;
+    flex-wrap: wrap;
+    padding: 0.1em;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(main_background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.wlist{
+    margin-top: 5em;
+    width: 80%;
+    background-color: #cae5ff;
+}
+td{
+    padding: 0.1em;
+    font-family: Andale Mono, monospace;
+    font-weight: bolder;
+}
+table, td, th{
+    border-collapse: collapse;
+    border: 1px solid #93A7BA;
+    padding: 0em 0.2em;
+}
+td p{
+    font-family: Roboto Condensed, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    margin: 0.3em 0.5em;
+    padding: 0.2em;
+}
+@media screen and (max-width: 470px){
+    .wlist{
+        width: 100%;
+    }
+}
+th{
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 16px;
+}
+.wlist table img{
+    width: 60px;
+    height: 60px;
+}
+.name_of_game{
+    text-align: center;
+}
+table{
+    margin: 0em 1.5em;
+}
+p{
+    margin: 1em 1.5em;
+    margin-right: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 0.7em;
+    font-size: 18px;
+}
+.head_text{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.head_text img{
+    margin: 1.5em;
+    margin-left: 0.1em;
+    margin-bottom: 0.1em;
+    width: 40%;
+    height: 30%; 
+}
+.head_text p{
+    margin-top: 2em;
+}
+@media screen and (max-width: 920px){
+    .head_text img{
+        height: 45%%;
+        width: 100%;
+        margin-left: 1.5em;
+    }
+    .head_text{
+        flex-wrap: wrap;
+    }
+    .head_text p{
+        margin-top: 0.5em;
+    }
+}
+h2{
+    display: flex;
+    margin: 1em 1.5em;
+    justify-content: center;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.mnogo_skins{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1.5em;
+}
+.mnogo_skins img{
+    width: 75px;
+    height: 75px;
+    margin: 7.5px;
+}
+.mnogo_skins p{
+    text-align: center;
+    margin: 0.2em;
+    margin-bottom: 1em;
+    font-size: 12px;
+}
+.mnogo_skins div{
+    max-width: 90px;
+    margin: 0.2em 1.6em;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 20px;
+    margin: 1em 1.5em;
+}
+.stereo_madness{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.stereo_madness img{
+    margin-right: 1.5em;
+    margin-left: 0.1em;
+    margin-bottom: 0.1em;
+    width: 45%;
+    height: 30%; 
+}
+.stereo_madness p{
+    margin-top: 2em;
+}
+@media screen and (max-width: 920px){
+    .stereo_madness img{
+        height: 45%;
+        width: 100%;
+        margin-left: 1.5em;
+    }
+    .stereo_madness{
+        flex-wrap: wrap;
+    }
+    .stereo_madness p{
+        margin-top: 0.5em;
+    }
+}
