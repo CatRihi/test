@@ -57,7 +57,7 @@ td p{
 }
 @media screen and (max-width: 470px){
     .wlist{
-        width: 470px;
+        width: 900px;
     }
 }
 th{
